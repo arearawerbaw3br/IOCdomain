@@ -1,3 +1,4 @@
-Domain
-aaaaaaaaaa.com
-bbbbbbbb.com
+name,pattern_type,pattern,main_observable_type,original_creation_date,valid_from,valid_until
+Malicious IP Address,stix,"[ipv4-addr:value = '203.0.113.10']",ipv4-addr,2025-05-23T08:10:00Z,2025-05-23T08:10:00Z,2025-11-23T08:10:00Z
+Suspicious Domain,stix,"[domain-name:value = 'bad-domain.example.com']",domain-name,2025-05-23T09:20:00Z,2025-05-23T09:20:00Z,2025-11-23T09:20:00Z
+Malware SHA-256 Hash,stix,"[file:hashes.'SHA-256' = 'abcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890']",file,2025-05-23T10:30:00Z,2025-05-23T10:30:00Z,2025-11-23T10:30:00Z
